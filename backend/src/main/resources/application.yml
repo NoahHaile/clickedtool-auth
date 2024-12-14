@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: "auth"
+  profiles:
+    active: "private"
+  datasource:
+    url: jdbc:postgresql://localhost:5431/core
+    username: user
+    password: password
+    driver-class-name: org.postgresql.Driver
+
+server:
+  port: 8080
+
+
