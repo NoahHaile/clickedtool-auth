@@ -130,7 +130,7 @@
         });
 
         function loginWithProvider(provider) {
-            fetch(`https://94.130.58.212:9191/login/auth/${provider}`, {
+            fetch(`http://94.130.58.212:9191/login/${provider}`, {
                 method: 'GET',
                 credentials: 'include'
             })
